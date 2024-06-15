@@ -1,4 +1,4 @@
-/* CSS Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    overflow: none;
+    overflow: hidden;
 }
 
 .container {
@@ -40,4 +40,49 @@ body {
     display: grid;
     grid-template: repeat(3, 1fr) / 1fr;
     gap: 2px;
+}
+
+.container-2{
+
+    display: grid;
+    grid-template: 1.2fr 5fr / 1fr;
+}
+
+.article{
+
+    height: 100%;
+    background-color: #e2e8f0;
+}
+
+.header{
+
+    display: grid;
+    grid-template: 1fr 1fr / 2fr 1fr;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1000;
+}
+
+.header img{
+
+    border-radius: 50%;
+    border: none;
+    height: 30px;
+}
+
+.header button{
+
+    background-color: #0ea5e9;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.header input{
+
+    border-radius: 10px;
+    border-width: 1px;
 }
