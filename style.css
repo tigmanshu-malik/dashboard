@@ -1,0 +1,43 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow: none;
+}
+
+.container {
+    display: grid;
+    grid-template: 1fr / 1fr 6fr;
+}
+
+.sidebar {
+    background-color: #0ea5e9;
+    color: white;
+    padding-left: 8px;
+    display: grid;
+    grid-template: 10% 40% 20% 30%/ 1fr;
+    gap: 15px;
+    padding-top: 5px;
+    height: 100vh;
+}
+
+.sidebar-2{
+
+    display: grid;
+    grid-template: repeat(6, 1fr) / 1fr;
+    gap: 2px;
+}
+
+.sidebar-3{
+
+    display: grid;
+    grid-template: repeat(3, 1fr) / 1fr;
+    gap: 2px;
+}
